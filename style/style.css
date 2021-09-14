@@ -1,0 +1,688 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.lux {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.nav_list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_item {
+    margin: 0 10px;
+}
+
+.navbar {
+    background-color: #332208;
+}
+
+.nav_link {
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FEFEFE;
+    text-decoration: none;
+    transition: 1.3s;
+}
+
+.nav_link:hover {
+    border-bottom: 2px solid #FFFF;
+    transition-duration: 2s;
+    color: #fae4c2;
+    transition: 0.4s;
+}
+
+.contact_link:hover {
+    color: #fae4c2;
+}
+
+.contact_link {
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FEFEFE;
+    text-decoration: none;
+}
+
+.section_photos {
+    width: 50%;
+}
+
+.section_info {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.section .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sharing_info {
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    color: #1B1818;
+    margin-bottom: 25px;
+}
+
+.sharing_info_text {
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #1B1818;
+    text-align: inherit;
+    text-align: center;
+}
+
+.sharing_link {
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FEFEFE;
+    background-color: #C5AC2D;
+    padding: 10px 15px;
+    border: none;
+    margin-top: 25px;
+    text-decoration: none;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.sharing_link:hover {
+    background-color: #8f790e;
+    border-radius: 5px;
+}
+
+.car_exchanges {
+    display: flex;
+    flex-direction: column;
+    width: 5%;
+    align-items: center;
+}
+
+.span {
+    width: 5px;
+    height: 5px;
+    background-color: #0a0601;
+    border-radius: 50%;
+    margin: 5px 0px;
+}
+
+.big_span {
+    width: 12px;
+    height: 12px;
+}
+
+.span:hover {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.cars {
+    width: 150px;
+    height: 150px;
+    border: 1px solid #332208;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.cars:hover {
+    box-shadow: 0 0 10px;
+}
+
+.text1 {
+    margin-top: 20px;
+}
+
+.cars_text {
+    margin-top: 10px;
+}
+
+
+.services .container {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.services_info {
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rents_title {
+    width: 45%;
+}
+
+.car_rental {
+    display: flex;
+    align-items: center;
+    margin-top: 130px;
+    margin-left: 125px;
+}
+
+.cars_about {
+    margin-left: 120px;
+}
+
+.conditions {
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #1B1818;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+}
+
+.contract {
+    margin-left: 40px;
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #1B1818;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+}
+
+.rent_terms_car .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.rent_terms_car_info {
+    width: 35%;
+}
+
+.rent_terms_car_text {
+    margin: 10px 0px;
+    margin-top: 20px;
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1B1818;
+    margin-bottom: 20px;
+}
+
+.text2 {
+    margin-top: 20px;
+}
+
+.rent_terms_car_info {
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #1B1818;
+}
+
+.rent_terms_car_link {
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #C5AC2D;
+    color: #FEFEFE;
+    padding: 10px 15px;
+    margin-top: 30px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.rent_terms_car_link:hover {
+    background-color: #72610a;
+    border-radius: 5px;
+}
+
+.rent_terms_car_information {
+    width: 65%;
+}
+
+.rent_terms_car_list {
+    width: 30%;
+    border: 1px solid #332208;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    padding: 20px;
+    height: 320px;
+    cursor: pointer;
+}
+
+.rent_terms_car_list:hover {
+    box-shadow: 0 0 10px;
+}
+
+.cars_info_img {
+    margin-bottom: 10px;
+}
+
+.cars_info_title {
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+}
+
+.cars_info_text {
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #000000;
+    margin-top: 20px;
+}
+
+.rent_terms_car_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rent_terms_car_information {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.advantages .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.advantages_info {
+    width: 30%;
+}
+
+.advantages_photo {
+    width: 45%;
+}
+
+.advantages_more_information {
+    width: 25%;
+}
+
+.advantages_title {
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #1B1818;
+}
+
+.advantages_item {
+    display: flex;
+    margin: 10px 0px;
+    align-items: center;
+}
+
+.advantages_text {
+    margin-left: 10px;
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+    color: #1B1818;
+}
+
+.text3 {
+    margin-top: 20px;
+}
+
+.advantages_more_information-texts {
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+    color: #1B1818;
+    text-align: right;
+}
+
+.advantages_more_information_link {
+    text-decoration: none;
+    background-color: #C5AC2D;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 80px;
+    transition: 0.3s;
+}
+
+.advantages_more_information_link:hover {
+    background-color: #5e4f04;
+    border-radius: 5px;
+}
+
+.group_text {
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #FEFEFE;
+    margin-left: 10px;
+}
+
+.advantages_span {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: rgb(44, 26, 3);
+}
+
+.reviews {
+    background-color: #332208;
+}
+
+.reviews_title {
+    color: #FEFEFE;
+}
+
+.reviews_info_item {
+    width: 24%;
+    height: 260px;
+    background: #332208;
+    border: 1px solid #C5AC2D;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.reviews_info_item:hover {
+    box-shadow: 0 0 10px rgb(204, 148, 26);
+}
+
+.reviews_info_title {
+    color: #FEFEFE;
+    margin-bottom: 15px;
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+}
+
+.reviews_info_text {
+    color: #FEFEFE;
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.reviews .container {
+    padding: 60px;
+}
+
+.reviews_info_list {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.last_part_info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.part_last_img {
+    margin: 0 4px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.part_last_img:hover {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.questions .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.questions_title {
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #1B1818;
+}
+
+.questions_text {
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1B1818;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.input_text {
+    border: 1px solid #332208;
+    box-sizing: border-box;
+    width: 300px;
+    padding: 7px;
+}
+
+
+.input_number {
+    border: 1px solid #332208;
+    box-sizing: border-box;
+    width: 300px;
+    padding: 7px;
+    margin-top: 12px;
+}
+
+.questions_link {
+    background-color: #C5AC2D;
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FEFEFE;
+    text-decoration: none;
+    padding: 10px 25px;
+    transition: 0.3s;
+}
+
+.questions_link:hover {
+    background-color: #6b5a03;
+    border-radius: 5px;
+}
+
+.sidebar_info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sidebar {
+    background-color: #332208;
+}
+
+.sidebar .container {
+    padding: 50px 0px;
+}
+
+.sidebar_list {
+    display: flex;
+    align-items: center;
+}
+
+.sidebar_item {
+    margin: 0 10px;
+}
+
+.sidebar_item_link {
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FEFEFE;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.sidebar_item_link:hover {
+    color: #C5AC2D;
+}
+
+.sidebar_link {
+    background-color: #C5AC2D;
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FEFEFE;
+    padding: 10px 15px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.sidebar_link:hover {
+    background-color: #685906;
+    border-radius: 5px;
+}
+
+.sidebar_number_link {
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FEFEFE;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.sidebar_number_link:hover {
+    color: #947f07;
+    border-radius: 5px;
+}
+
+.social_networks_info{
+    margin-top:20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social_networks_img{
+    margin:0 8px;
+    cursor: pointer;
+}
